@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" type="text/css" href="/public/style.css" />
+<link rel="shortcut icon" type="imagex/png" href="/public/imagens/outragação.png">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+</style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Beiruti:wght@300&display=swap');
+</style>    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logar!</title>
+</head>
+
+<body class="site">
+    <main>
+        <section id="login">
+            <section class="teste">
+                <a href="home.html" style= "text-decoration: none;"><p style=color:white>(In)decida-se</p></a>
+            </section>
+                <div class="container-login" id="formulario">
+                    <p> Seja bem-vindo(a) novamente. Faça seu login para acessar sua conta.</p>
+                    <form action="/login" method="post" autocomplete="on">
+                        <div class="campo">
+                            <label for = "ilogin"> Login </label>
+                            <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
+                   
+                        </div>
+                        <div class="campo">
+                            <span class="material-symbols-outlined">
+
+                                
+                                </span>
+                                <label for = "isenha"> Senha </label>
+                                <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required>
+                            
+                        </div>
+                       <input type="submit" value="Entrar">    
+                        
+
+
+                    </form>
+                </div>
+        </section>
+    </main>
+
+</body>
+</html>

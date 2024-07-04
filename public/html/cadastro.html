@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" type="text/css" href="/public/style.css" />
+<link rel="shortcut icon" type="imagex/png" href="/public/imagens/outragação.png">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+</style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Beiruti:wght@300&display=swap');
+</style>    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se gratuitamente</title>
+</head>
+
+<body class="site"> 
+    <section class="teste">
+        <a href="home.html" style= "text-decoration: none;"><p style=color:white>(In)decida-se</p></a>
+    </section>
+    <div class="container">
+        <h1>Cadastro de Usuário</h1>
+
+
+        <form action="/cadastrar" method="POST" enctype="multipart/form-data">
+            <p><label for="username">Usuário: </label>
+            <input type="text" id="username" name="username" required></p>
+            <p><label for="email">Email: </label>
+            <input type="email" id="email" name="email" required></p>
+            <p><label for="senha">Senha: </label>
+            <input type="submit" value="Cadastrar">
+        </form>
+        
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+.teste p{
+    font-size: 125px;
+    text-align: center;
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-weight: 450;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site{
+    background: #2b2742;
+    border: 52px black solid;
+    height: 795px;
+}
+
+.pergunta{
+    font-size: 45px;
+}
+.alternativa-1{
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+}
+
+.alternativa-2{
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+}
+
+.forma{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 300;
+}
+
+.tabela{
+    margin-left: 710px;
+}
+
+.login{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.menu{
+    
+}
+p{
+    color: white;
+    font-size: 25px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 300;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container{
+    color: white;
+    font-size: 15px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 300;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 115px;
+}
+
+.container-login{
+    color: white;
+    font-size: 25px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 300;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sobre{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+
+.app__card-timer{
+    color: white;
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 12rem;
+    font-weight: 700;
+    line-height: normal;
+    margin: 3.2rem;
+    text-align: center;
+}
+
+.app__card-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 1.6rem;
+}
+
+.app__card-button{
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    background: none;
+    padding: 0.8rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.app__card-button.active{
+    border-radius: 0.8rem;
+    background: white;
+    font-weight: 600;
+}
+
+.app__card-timer{
+    color: gray;
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 12rem;
+    font-weight: 700;
+    line-height: normal;
+    margin: 3.2rem;
+    text-align: center;
+}
+
+.app__card-list-label{
+    color: white;
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.app__card-primary-button-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__card-primary-button{
+    padding: 0.8rem;
+    width: 12rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 3.2rem;
+    background: var(--linear-botes);
+    margin-top: 3.2rem;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.toggle{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.toggle-switch{
+    display: inline-block;
+    background: #ccc;
+    border-radius: 1.6rem;
+    width: 5.8rem;
+    height: 3.2rem;
+    position: relative;
+    vertical-align: middle;
+    transition: background 0.25s;
+}
+
+.toggle-switch:before, .toggle-switch:after{
+    content: "";
+}
+
+.toggle-switch:before{
+    display: block;
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+    border-radius: 50%;
+    width: 2.4rem;
+    height: 2.4rem;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+    transition: left 0.25s;
+}
+
+.toggle:hover .toggle-switch:before{
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+}
+.toggle-checkbox:checked + .toggle-switch{
+    background: white;
+}
+.toggle-checkbox:checked + .toggle-switch:before{
+    left: 3rem;
+}
+.toggle-checkbox{
+    position: absolute;
+    visibility: hidden;
+}
